@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual env
+.venv/
+venv/
+
+# Secrets
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Data artifacts
+/data/cache/
+/data/outputs/
+
+# Local datasets (keep folder, ignore files)
+/data/input/*.csv
+
+# OS
+Thumbs.db
+.DS_Store
