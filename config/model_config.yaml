@@ -1,0 +1,12 @@
+llm:
+  provider: gemini
+  model: gemini-2.5-flash
+  temperature: 0.1
+  max_output_tokens:
+    planner: 900
+    narrator: 900
+    summary: 1100
+
+limits:
+  max_result_rows: 200
+  max_display_rows_default: 50
